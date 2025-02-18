@@ -1,0 +1,762 @@
+<!DOCTYPE html> <!-- Declares the document type and version (HTML5 in this case) -->
+<html lang="en"> <!-- Specifies the language of the document is English -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Sets the character encoding of the document to UTF-8, which includes most characters from all languages -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Ensures that Internet Explorer uses the latest rendering engine for proper page display -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page responsive, adapting to different screen sizes -->
+  <title>Portfolio</title> <!-- The title of the webpage displayed in the browser tab -->
+
+  <!-- ====== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Links the main CSS stylesheet that controls the overall layout and style of the page -->
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <!-- Links an external CSS file to apply a specific color theme to the page -->
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- Links Boxicons CSS library for using vector icons (icons for social media, UI, etc.) -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <!-- Links Font Awesome CSS for using a wide range of icons -->
+
+  <!-- ====== Style Switcher ===== -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled> 
+  <!-- The first color scheme for the site (disabled by default for theme switching) -->
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <!-- The second color scheme (disabled) -->
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <!-- The third color scheme (enabled by default) -->
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <!-- The fourth color scheme (disabled) -->
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" >
+  <!-- The fifth color scheme (disabled) -->
+
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <!-- Links the CSS file for the style switcher feature, enabling users to switch between different themes -->
+</head>
+
+<body>
+  <!-- ====== Main Container Start ===== -->
+  <div class="main-container">
+    <!-- ====== Aside Start ===== -->
+    <aside class="aside">
+      <div class="logo">
+        <a href="#"><span>YesU</span>Drink</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="nav-link active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about" class="nav-link"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#services" class="nav-link"><i class="fa fa-list"></i> Services</a></li>
+        <li><a href="#portfolio" class="nav-link"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact" class="nav-link"><i class="fa fa-comments"></i> Contact</a></li>
+      </ul>
+    </aside>
+    <!-- ====== Aside End ===== -->
+    <!-- ===== Main Content Start =====-->
+    <main class="main-content">
+      <!-- ===== Home Section Start ===== -->
+      <section class="home section " id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, we are the Group named<span class="name"> Crappy</span> Filter</h3>
+              <h3 class="my-profession">We are from the<span class="typing"> CITCS Department of University of the Cordilleras</span></h3>
+              <p>Our startup projects accomodates the SDG 6: Clean Water and Sanitation for our local communities which aim's essentially to have the right for "Universal" access to "safe", "affordable" drinking water. Improving water quality by making products for water filtration and increasing wastewater treatment/reuse.
+Thus, strengthening our local community participation in water governance.
+</p>
+              <a href="#contact" class="btn hire-me">Message Me</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/Hero.jpg" alt="Hero image of Mark Balidoy">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Home Section End ===== -->
+      <!-- ===== About Section Start ===== -->
+      <section class="about section " id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Us</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <h3>Advertisement<span> Company for Water Service localities</span></h3>
+              <p>
+                Choose Us! We are the best starting advertising company for water service company in the Philippines. We will provide you with the best advertisement services and products for your water service company. 
+                We will help you to grow your business and reach your goals as a quality producer.
+              <!-- New flex container -->
+              <div class="info-skills-container">
+                <div class="personal-info padd-15">
+                  <div class="info-item padd-15">
+                    <p>Ratings: <span>4.3 / 5.0</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Started on: <span>2025</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Website: <span>https://CrappyWaters.com/</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Email: <span>crappywaters@gmail.com</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Specialty: <span>Web Technology, Network & Security </span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>City: <span>Baguio City</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Phone: <span>+63 906 024 0351</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Status: <span>Available</span></p>
+                  </div>
+                </div>
+                <!-- Skills Section -->
+                <div class="skills-section padd-15" `>
+                  <h3>Expertise</h3>
+                  <div class="skills-container">
+                    <div class="skills-item">
+                      <h5>Photo Shop</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 50%;"></div>
+                      </div>
+                      <span class="skill-percent">50%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Marketing</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 80%;"></div>
+                      </div>
+                      <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Social Media</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 50%;"></div>
+                      </div>
+                      <span class="skill-percent">50%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Logo Making</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 65%;"></div>
+                      </div>
+                      <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Ad Making</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 75%;"></div>
+                      </div>
+                      <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Tarpaulin</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 45%;"></div>
+                      </div>
+                      <span class="skill-percent">45%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Websites</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 75%;"></div>
+                      </div>
+                      <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skills-item">
+                      <h5>Database</h5>
+                      <div class="progress-bar">
+                        <div class="progress-in" style="width: 35%;"></div>
+                      </div>
+                      <span class="skill-percent">35%</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Education and Experience Section -->
+
+                <section class="education-experience-container">
+                  <div class="timeline-box padd-15">
+                    <h3 class="title">Education & Experience</h3>
+                    <div class="timeline shadow-dark">
+                      <!-- Education Timeline Items -->
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2009 - 2013</h3>
+                        <h4 class="timeline-title">Primary School</h4>
+                        <p class="timeline-text">
+                          <span>Kinder to Grade 1-6: </span> Jose P. Laurel Elementary School, Upper Dagsian, Baguio
+                          City. Grade 3: Philippine Military Academy (PMA) Elementary School, Fort Del
+                          Pilar, Baguio City,
+                          Philippines
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2016 - 2020</h3>
+                        <h4 class="timeline-title">Junior High School</h4>
+                        <p class="timeline-text">
+                          <span>Philippine Military Academy (PMA):</span> BCNHS Annex (Baguio City National High
+                          School), Fort Del
+                          Pilar, Baguio City, Philippines
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2020 - 2024</h3>
+                        <h4 class="timeline-title">Encoding Sessions</h4>
+                        <p class="timeline-text">
+                          <span>Part-time encoding jobs:</span> Maintained WPM average of 75 (highest: 102 WPM). Ensured
+                          accuracy in
+                          updating and creating records.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2021 - 2023</h3>
+                        <h4 class="timeline-title">Bootcamp Visitor</h4>
+                        <p class="timeline-text">
+                          <span>Tour of intensive coding bootcamp:</span> Focused on practical web development and
+                          related technologies.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2021 - 2023</h3>
+                        <h4 class="timeline-title">Senior High School</h4>
+                        <p class="timeline-text">
+                          <span>University of the Cordilleras (STEM - SHS):</span> Gov. Pack Road, Baguio City,
+                          Philippines
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2024 - 2027</h3>
+                        <h4 class="timeline-title">College (BSIT)</h4>
+                        <p class="timeline-text">
+                          <span>BSIT Web Tech Track:</span> University of the Cordilleras, Gov. Pack Road, Baguio City,
+                          Philippines
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2022 - 2023</h3>
+                        <h4 class="timeline-title">Builds Personal Computers for Peers/Colleagues</h4>
+                        <p class="timeline-text">
+                          <span>Baguio | Senior High School Years:</span> Custom building PCs for increased performance
+                          through Memory,
+                          CPUs, Graphics Cards, Power Supplies.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2022 - 2023</h3>
+                        <h4 class="timeline-title">Part-Time in Restaurants</h4>
+                        <p class="timeline-text">
+                          <span>Work at SM (McDonald's):</span> Hourly/daily wage, 6 months. Included 3 months of
+                          Customer Service
+                          Training.
+                        </p>
+                      </div>
+
+                    </div>
+                  </div>
+                </section>
+      </section>
+
+      <!-- ===== About Section End ===== -->
+      <!-- ===== Services Section Start ===== -->
+      <section class="service section " id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Service item Start ========================-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile-alt"></i>
+                </div>
+                <h4>Creation of Fliers</h4>
+                <p>Need some distributable paper for promotion?</p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+            <!-- ===== Service item Start =====-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>We are experienced in Design Concepts for your arts</p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+            <!-- ===== Service item Start =====-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>Logo Making</h4>
+                <p>Photoshop and Illustrator are our best friends for your advertisement creation </p>
+                </p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+            <!-- ===== Service item Start =====-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Coding Sessions</h4>
+                <p>Self-taught students that learned to code, can create a secured website for your Water Companies.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+            <!-- ===== Service item Start =====-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>Idea Searching</h4>
+                <p> Looking for a brand name that suits with your style?</p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+            <!-- ===== Service item Start =====-->
+            <div class="service-item padd-15">
+              <div class="services-item-inner">
+                <div class="icon">
+                  <i class="fa fa-bullhorn"></i>
+                </div>
+                <h4>Video Advertising</h4>
+                <p>Official Videos of your Company showcasing different methods of Water Filtration to build trust</p>
+              </div>
+            </div>
+            <!-- ===== Service item End =====-->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Services Section End ===== -->
+
+
+      <!-- ===== Portfolio Section Start ===== -->
+
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Experiences</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>Valuable Projects:</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-1.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/128bKifz8CbepRS-T2uZ1Ic_dzpTBRNSZ/view?usp=sharing"
+                  download="Project-1" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-2.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1z3e0Et1j2Atb3_seP5iq5HxK__vxvdyQ/view?usp=sharing"
+                  download="Project-2" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-3.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1MO1Ox51j19HKRnf6sMZfC7dYoCbrF94v/view?usp=sharing"
+                  download="Project-3" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-4.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1Yk39m6-wmHxQV-5FK7F1NbiJJuNJPKNg/view?usp=sharing"
+                  download="Project-4" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-5.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/17QojpASQYaTKjxesKfI0cUXohlS2wjiy/view?usp=sharing"
+                  download="Project-5" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-6.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1jgAHehSMTQXLEjxVWbLFfuL_4OHlUnhZ/view?usp=sharing"
+                  download="Project-6" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-7.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/19vNdS0b_Z21irdIi2Q4E2ZP75jiex0VL/view?usp=sharing"
+                  download="Project-7" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-8.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://docs.google.com/spreadsheets/d/1ZFlbesPliwyJyDIZv7PUiwHFlR0qsFdq/edit?usp=sharing&ouid=117006369256451880884&rtpof=true&sd=true"
+                  download="Project-8" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-9.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://docs.google.com/spreadsheets/d/1zMkZ7q7RisngJRY2wFW-uWcLK4wafog5/edit?usp=sharing&ouid=117006369256451880884&rtpof=true&sd=true"
+                  download="Project-9" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-10.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1dTGnlMe2AGc-I9MJBT7CaEgvWkyjeZLE/view?usp=sharing"
+                  download="Project-10" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-11.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/10EdQQOV4NTxmFnwEzQS2IDoWdOCaRcn9/view?usp=sharing"
+                  download="Project-11" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-12.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1IGRoraEBQvJ_TTfIdNDr8EeIJVYolHIY/view?usp=sharing"
+                  download="Project-12" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-13.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/16fWilwye8MN677tU-Xj0ejzHmZg4fLzU/view?usp=sharing"
+                  download="Project-13" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-14.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1IGRoraEBQvJ_TTfIdNDr8EeIJVYolHIY/view?usp=sharing"
+                  download="Project-14" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-15.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/1MuMnPjuiVpSKBLOeaLwjTF1jOW_fsklB/view?usp=sharing"
+                  download="Project-15" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-16.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/16fWilwye8MN677tU-Xj0ejzHmZg4fLzU/view?usp=sharing"
+                  download="Project-16" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Repeat for other items -->
+            <!-- Portfolio item Start -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-17.jpg" alt="">
+                </div>
+                <!-- Download Button -->
+                <a href="https://drive.google.com/file/d/16fWilwye8MN677tU-Xj0ejzHmZg4fLzU/view?usp=sharing"
+                  download="Project-17" class="btn-download">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+            <!-- Portfolio item End -->
+
+            <!-- Continue for more portfolio items -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Portfolio Section End ===== -->
+
+      <!-- ===== Contact Section Start ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+          <div class="row">
+            <!-- ===== Contact Info Item Start ===== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call Us On</h4>
+              <p>+63 906 024 0351</p>
+            </div>
+            <!-- ===== Contact Info Item End ===== -->
+            <!-- ===== Contact Info Item Start ===== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+              <h4>Office</h4>
+              <p>Baguio City</p>
+            </div>
+            <!-- ===== Contact Info Item End ===== -->
+            <!-- ===== Contact Info Item Start ===== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>crappywaters@gmail.com</p>
+            </div>
+            <!-- ===== Contact Info Item End ===== -->
+            <!-- ===== Contact Info Item Start ===== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-globe-europe"></i></div>
+              <h4>Website</h4>
+              <p>crappywaters@gmail.com</p>
+            </div>
+            <!-- ===== Contact Info Item End ===== -->
+          </div>
+          <h3 class="contact-title padd-15">SEND US AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">CHECK OUR SOCIALS</h4>
+          <div class="social-container">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXLCCMpVrbNmKpnKFXSkfFQHSvbqGrZJvxxnRjfnrpFRTrSfzjjDDfBZwBDpgHsgpWkFC"
+              target="_blank" rel="noopener noreferrer" class="btn-social">
+              <i class="fas fa-envelope"></i> Gmail
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100004527431459&sk=about" target="_blank"
+              rel="noopener noreferrer" class="btn-social">
+              <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+            <a href="https://github.com/SICK-dawg-2003" target="_blank" rel="noopener noreferrer" class="btn-social">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+            <a href="https://studio.youtube.com/channel/UCGBqqfFDGZmYYVooQ1-4--g/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+              target="_blank" rel="noopener noreferrer" class="btn-social">
+              <i class="fa-brands fa-youtube"></i> Youtube
+            </a>
+          </div>
+
+        </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <!-- ===== Contact Section End ===== -->
+  <!-- ===== Main Content End =====-->
+  </div>
+  <!-- ====== Main Container End ===== -->
+  <!-- ====== Style Switcher Start===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+
+
+  <!-- ====== Style Color Change End===== -->
+  <!-- ====== JS FILES ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+
+
+</body>
+
+</html>
